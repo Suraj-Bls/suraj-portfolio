@@ -351,27 +351,13 @@ ul, ol { margin: 0; padding: 0; }
 }
 
 .hero h1 {
-    font-size: clamp(3rem, 8vw, 5.4rem);
+    font-size: clamp(3.4rem, 10vw, 7rem);
     font-weight: 400;
-    letter-spacing: -.025em;
-    line-height: 1;
+    letter-spacing: -.03em;
+    line-height: .95;
 }
-.hero h1 em { font-style: italic; color: var(--accent); }
+.hero h1 em { display: block; font-style: italic; color: var(--accent); }
 
-.hero__role {
-    margin: 20px 0 0;
-    color: var(--ink);
-    font-size: clamp(1.05rem, 2vw, 1.2rem);
-    font-weight: 500;
-}
-.hero__role span { color: var(--muted); font-weight: 400; }
-
-.hero__intro {
-    max-width: 560px;
-    margin: 18px 0 0;
-    color: var(--muted);
-    font-size: 1.08rem;
-}
 
 .hero__actions {
     display: flex;
@@ -799,6 +785,14 @@ ul, ol { margin: 0; padding: 0; }
 }
 .award h3 { margin-top: 6px; font-size: 1.3rem; line-height: 1.3; }
 .award p { margin: 10px 0 0; color: var(--muted); font-size: .92rem; line-height: 1.6; }
+.award--cert {
+    grid-column: 1 / -1;
+    flex-direction: row;
+    align-items: center;
+    gap: 28px;
+}
+.award__badge { width: 120px; height: 120px; flex: none; }
+.award--cert p { max-width: 640px; }
 .award__links {
     display: flex;
     flex-wrap: wrap;
@@ -809,6 +803,11 @@ ul, ol { margin: 0; padding: 0; }
 
 @media (max-width: 960px) {
     .awards { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 560px) {
+    .award--cert { flex-direction: column; align-items: flex-start; gap: 16px; }
+    .award__badge { width: 88px; height: 88px; }
 }
 
 /* ---------- Skills ---------- */
@@ -855,7 +854,7 @@ ul, ol { margin: 0; padding: 0; }
     font-size: clamp(2.2rem, 5vw, 3.4rem);
     font-weight: 400;
 }
-.contact__lede { max-width: 520px; margin: 18px auto 0; font-size: 1.05rem; }
+.contact__lede { max-width: 580px; margin: 18px auto 0; font-size: 1.05rem; }
 .contact__email {
     display: inline-block;
     margin-top: 32px;

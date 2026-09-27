@@ -37,7 +37,9 @@
         <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 5 6v5c0 4.5 3 8.5 7 10 4-1.5 7-5.5 7-10V6l-7-3z"/><path d="m9 12 2 2 4-4"/></symbol>
         <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="9" r="6"/><path d="M8.5 14 7 22l5-3 5 3-1.5-8"/></symbol>
         <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 5a2 2 0 0 1 2-2h14v16H6a2 2 0 0 0-2 2V5z"/><path d="M4 19a2 2 0 0 1 2-2h14"/></symbol>
-        <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3z"/></symbol>
+        <symbol id="i-nodes" viewBox="0 0 24 24"><circle cx="12" cy="5" r="2.5"/><circle cx="5" cy="18" r="2.5"/><circle cx="19" cy="18" r="2.5"/><path d="M10.8 7.2 6.2 15.8M13.2 7.2l4.6 8.6M7.5 18h9"/></symbol>
+        <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5 9-5z"/><path d="m3 13 9 5 9-5"/></symbol>
+        <symbol id="i-star"viewBox="0 0 24 24"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3z"/></symbol>
     </svg>
 
     <a class="skip-link" href="#main">Skip to content</a>
@@ -69,11 +71,6 @@
                     <div>
                         <span class="hero__status"><i></i>Senior Software Developer at Nomura · New York City</span>
                         <h1>Suraj <em>Bodapati</em></h1>
-                        <p class="hero__role">Software Engineer <span>— distributed systems, applied AI &amp; secure platforms</span></p>
-                        <p class="hero__intro">
-                            I build the event-streaming platforms, LLM-powered agents and secure automation
-                            that critical financial systems run on, and I ship them with zero production disruption.
-                        </p>
                         <div class="hero__actions">
                             <a href="./Files/Suraj_Bodapati_Resume.pdf" target="_blank" rel="noopener" class="btn btn--primary">
                                 <svg class="icon"><use href="#i-download"/></svg> Download résumé
@@ -133,6 +130,10 @@
                     </div>
                     <ul class="focus reveal">
                         <li>
+                            <h3><svg class="icon"><use href="#i-nodes"/></svg>Distributed systems</h3>
+                            <p>Resilient microservices and asynchronous pipelines with retries, dead-letter reprocessing, caching and auto-recovery built in.</p>
+                        </li>
+                        <li>
                             <h3><svg class="icon"><use href="#i-stream"/></svg>Event-driven systems</h3>
                             <p>Solace, Apache Pulsar and Kafka platforms with phased rollouts, DR testing and reusable migration patterns.</p>
                         </li>
@@ -143,6 +144,9 @@
                         <li>
                             <h3><svg class="icon"><use href="#i-shield"/></svg>Secure, automated platforms</h3>
                             <p>Secrets management with CyberArk Conjur and Ansible automation that remediates vulnerabilities at scale.</p>
+                        </li>
+                        <li>
+                            <h3><svg class="icon"><use href="#i-layers"/></svg>Full-stack development</h3>
                         </li>
                     </ul>
                 </div>
@@ -582,6 +586,17 @@
                     <h2 class="section__title">Recognition</h2>
                 </div>
                 <ul class="awards">
+                    <li class="award award--cert reveal">
+                        <img class="award__badge" src="images/aws-certified-ai-practitioner.png" alt="AWS Certified AI Practitioner – Foundational badge" width="120" height="120" loading="lazy">
+                        <div>
+                            <span class="award__year">Certification · AWS</span>
+                            <h3>AWS Certified AI Practitioner</h3>
+                            <p>Foundational certification covering AI, machine learning and generative AI concepts, responsible AI, and building with AWS services such as Amazon Bedrock.</p>
+                            <div class="award__links">
+                                <a href="https://www.credly.com/go/z7ImnMMyF2aZA27Ji26FRg" target="_blank" rel="noopener" class="link-arrow">Verify on Credly <svg class="icon"><use href="#i-arrow"/></svg></a>
+                            </div>
+                        </div>
+                    </li>
                     <li class="award reveal">
                         <span class="award__icon"><svg class="icon"><use href="#i-star"/></svg></span>
                         <span class="award__year">Nomura · 2023 – 2026</span>
@@ -635,7 +650,7 @@
                     <div class="skill-row">
                         <h3>AI / LLM</h3>
                         <ul class="tags">
-                            <li>LLM APIs</li><li>RAG</li><li>LangChain</li><li>LangGraph</li><li>Amazon Bedrock</li><li>Model Context Protocol (MCP)</li><li>Agent Harness</li><li>NLTK</li><li>TensorFlow</li><li>Keras</li><li>PyTorch</li><li>AWS Certified AI Practitioner</li>
+                            <li>LLM APIs</li><li>RAG</li><li>LangChain</li><li>LangGraph</li><li>Amazon Bedrock</li><li>Model Context Protocol (MCP)</li><li>Agent Harness</li><li>NLTK</li><li>TensorFlow</li><li>Keras</li><li>PyTorch</li>
                         </ul>
                     </div>
                     <div class="skill-row">
@@ -659,7 +674,7 @@
             <div class="container reveal">
                 <span class="eyebrow">Contact</span>
                 <h2>Let's build something together.</h2>
-                <p class="contact__lede">I'm always glad to talk about distributed systems, applied AI, or a role where I can help.</p>
+                <p class="contact__lede">Whether it's a challenging systems problem, an AI idea worth building, or a role where I can make an impact, I'd love to hear from you. Outside of work you'll find me at the gym, trying new restaurants or discovering new music, so I'm always happy to swap recommendations too.</p>
                 <a class="contact__email" href="mailto:surajbodapati97@gmail.com">surajbodapati97@gmail.com</a>
                 <div class="contact__meta">
                     <span><svg class="icon"><use href="#i-pin"/></svg>New York City, NY</span>
