@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Suraj Bodapati | Senior Software Developer</title>
+    <meta name="description" content="Suraj Bodapati — Senior Software Developer at Nomura in New York. Event-streaming platforms, LLM agents and RAG systems, and secure infrastructure automation.">
+    <meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#0f1216" media="(prefers-color-scheme: dark)">
+    <meta property="og:title" content="Suraj Bodapati | Senior Software Developer">
+    <meta property="og:description" content="Event-streaming platforms, LLM agents and RAG systems, and secure infrastructure automation.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://lbodapat.github.io/portfolio/">
+    <meta property="og:image" content="https://lbodapat.github.io/portfolio/images/Suraj_bls.png">
+    <link rel="icon" href="images/sj.jpeg" type="image/jpeg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <script>document.documentElement.classList.add('js');</script>
+</head>
+
+<body>
+    <!-- Icon sprite -->
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+        <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zm1.78 13.02H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></symbol>
+        <symbol id="i-github" viewBox="0 0 24 24"><path d="M12 .3a12 12 0 0 0-3.8 23.38c.6.12.82-.26.82-.57v-2.04c-3.34.72-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.74.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.49 1 .1-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.64 1.66.24 2.88.12 3.18a4.65 4.65 0 0 1 1.23 3.22c0 4.61-2.8 5.63-5.48 5.92.42.36.81 1.1.81 2.22v3.29c0 .31.21.69.82.57A12 12 0 0 0 12 .3"/></symbol>
+        <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>
+        <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 20h14"/></symbol>
+        <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></symbol>
+        <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
+        <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+        <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+        <symbol id="i-stream" viewBox="0 0 24 24"><path d="M3 7h11M3 12h18M3 17h8"/><circle cx="17" cy="7" r="2"/><circle cx="14" cy="17" r="2"/></symbol>
+        <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5 18 18M18 6l-2.5 2.5M8.5 15.5 6 18"/></symbol>
+        <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 5 6v5c0 4.5 3 8.5 7 10 4-1.5 7-5.5 7-10V6l-7-3z"/><path d="m9 12 2 2 4-4"/></symbol>
+        <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="9" r="6"/><path d="M8.5 14 7 22l5-3 5 3-1.5-8"/></symbol>
+        <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 5a2 2 0 0 1 2-2h14v16H6a2 2 0 0 0-2 2V5z"/><path d="M4 19a2 2 0 0 1 2-2h14"/></symbol>
+        <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3z"/></symbol>
+    </svg>
+
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="nav" id="nav">
+        <div class="container nav__inner">
+            <a href="#top" class="nav__brand">Suraj Bodapati<span>.</span></a>
+            <button class="nav__toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+                <svg class="icon"><use href="#i-menu"/></svg>
+            </button>
+            <ul class="nav__links" id="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="./Files/Suraj_Bodapati_Resume.pdf" target="_blank" rel="noopener" class="btn btn--primary btn--sm">Résumé</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main id="main">
+
+        <!-- Hero -->
+        <section class="hero" id="top">
+            <div class="container">
+                <div class="hero__grid">
+                    <div>
+                        <span class="hero__status"><i></i>Senior Software Developer at Nomura · New York City</span>
+                        <h1>Suraj <em>Bodapati</em></h1>
+                        <p class="hero__role">Software Engineer <span>— distributed systems, applied AI &amp; secure platforms</span></p>
+                        <p class="hero__intro">
+                            I build the event-streaming platforms, LLM-powered agents and secure automation
+                            that critical financial systems run on, and I ship them with zero production disruption.
+                        </p>
+                        <div class="hero__actions">
+                            <a href="./Files/Suraj_Bodapati_Resume.pdf" target="_blank" rel="noopener" class="btn btn--primary">
+                                <svg class="icon"><use href="#i-download"/></svg> Download résumé
+                            </a>
+                            <a href="#contact" class="btn btn--ghost">Get in touch</a>
+                            <ul class="social">
+                                <li><a href="https://www.linkedin.com/in/suraj-bls/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg class="icon icon--fill"><use href="#i-linkedin"/></svg></a></li>
+                                <li><a href="https://github.com/lbodapat" target="_blank" rel="noopener" aria-label="GitHub"><svg class="icon icon--fill"><use href="#i-github"/></svg></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="hero__portrait">
+                        <img src="./images/Suraj_bls.png" alt="Portrait of Suraj Bodapati" width="960" height="1200">
+                    </div>
+                </div>
+
+                <div class="stats">
+                    <div class="stat"><span class="stat__num">10</span><span class="stat__label">critical applications migrated to Solace &amp; Pulsar with zero disruption</span></div>
+                    <div class="stat"><span class="stat__num">20+</span><span class="stat__label">global teams using my MCP agent framework</span></div>
+                    <div class="stat"><span class="stat__num">~30%</span><span class="stat__label">team productivity gain from a RAG-powered assistant</span></div>
+                    <div class="stat"><span class="stat__num">100+</span><span class="stat__label">components secured with CyberArk Conjur</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="section section--alt" id="about">
+            <div class="container">
+                <div class="section__head reveal">
+                    <span class="eyebrow">About</span>
+                    <h2 class="section__title">Engineering systems that other teams rely on.</h2>
+                </div>
+                <div class="about">
+                    <div class="about__body reveal">
+                        <p>
+                            I'm a Senior Software Developer at Nomura Securities International in New York, working
+                            where large-scale infrastructure meets applied AI.
+                        </p>
+                        <p>
+                            At Nomura I led the migration of <strong>10 critical applications</strong> off end-of-support TIBCO
+                            messaging onto Solace and Apache Pulsar in six months. That included 9 core data flows and a
+                            regulatory system, with <strong>zero production disruption</strong>, and it contributed to the
+                            firm's DORA compliance. I also built a RAG-based assistant that gives developers and clients
+                            24/7 first-line support, and an MCP agent framework for natural-language access to reference
+                            data that <strong>20+ global teams</strong> now use, across Quants, Risk, Finance, Compliance,
+                            Legal, Research and Technology.
+                        </p>
+                        <p>
+                            Before Nomura I built asynchronous metrics pipelines on AWS for MySQL HeatWave at Oracle, and spent
+                            two years at JPMorgan Chase delivering Kafka-based client-onboarding systems. That work earned
+                            back-to-back firm-level Execution Excellence Awards. I hold an M.S. in Computer Science from the
+                            University at Buffalo and am lead author of three research papers published by IEEE and Springer.
+                        </p>
+                        <p>
+                            I care about clean architecture, careful rollouts and tools that make the people around me faster.
+                        </p>
+                    </div>
+                    <ul class="focus reveal">
+                        <li>
+                            <h3><svg class="icon"><use href="#i-stream"/></svg>Event-driven systems</h3>
+                            <p>Solace, Apache Pulsar and Kafka platforms with phased rollouts, DR testing and reusable migration patterns.</p>
+                        </li>
+                        <li>
+                            <h3><svg class="icon"><use href="#i-spark"/></svg>Applied AI &amp; agents</h3>
+                            <p>RAG pipelines, MCP tools and harness-agnostic agent frameworks built on LLM APIs, LangChain and LangGraph.</p>
+                        </li>
+                        <li>
+                            <h3><svg class="icon"><use href="#i-shield"/></svg>Secure, automated platforms</h3>
+                            <p>Secrets management with CyberArk Conjur and Ansible automation that remediates vulnerabilities at scale.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section class="section" id="experience">
+            <div class="container">
+                <div class="section__head reveal">
+                    <span class="eyebrow">Experience</span>
+                    <h2 class="section__title">Where I've worked</h2>
+                </div>
+
+                <ol class="timeline">
+
+                    <!-- Nomura -->
+                    <li class="role reveal">
+                        <div class="role__meta">
+                            <span class="role__date">Mar 2023 — Present</span>
+                            <span>New York City, USA</span>
+                            <span class="role__current">Current</span>
+                        </div>
+                        <div>
+                            <h3 class="role__company">Nomura Securities International</h3>
+                            <p class="role__title">Senior Software Developer</p>
+                            <ul class="role__points">
+                                <li>Architected and migrated <strong>10 applications</strong> (9 critical data flows and 1 regulatory system) from end-of-support TIBCO EMS and TIBCO Rendezvous to firm-mandated Solace and Apache Pulsar event streaming in <strong>6 months</strong>, contributing to the firm's DORA compliance.</li>
+                                <li>Stood up the Solace and Pulsar infrastructure and led a phased rollout across 10 teams (parallel releases, staggered rollouts, DR and rollback testing) with <strong>zero production disruption</strong>. Data-processing and regulatory-reporting SLAs held throughout, and the migration patterns are now reused for future platform transformations.</li>
+                                <li>Architected and deployed an <strong>AI-powered, context-aware chatbot</strong> using RAG over Confluence, Jira and Takara data-dictionary sources with LLM APIs. It resolves recurring client queries, helps developers with application logic and infrastructure configuration, and generates custom Java and Python API code from natural language. Automated resync pipelines keep the vector database current, delivering 24/7 first-line support and a <strong>~30% improvement in team productivity</strong>.</li>
+                                <li>Built <strong>MCP tools and a harness-agnostic agent framework</strong> for LLM-powered natural-language retrieval of Takara reference data across <strong>~30 data domains</strong>, replacing multi-step UI workflows and custom data-join code. It has been adopted by <strong>20+ global teams</strong> across Quants, Risk, Finance, Compliance, Legal, Research and Technology.</li>
+                                <li>Migrated passwords and encryption keys across <strong>100+ Takara components</strong> to the CyberArk Conjur vault with a secure, latency-conscious design. Built an Ansible pipeline that detects changes in an AES-256-encrypted config, decrypts it to a read-protected file at deploy time, and uses the extracted key to fetch credentials at runtime.</li>
+                                <li>Developed and maintained Ansible automation for cybersecurity vulnerability remediation across Takara (removing vulnerable files and JARs, tightening permissions, upgrading Java and out-of-date software), achieving <strong>97% within-SLA remediation</strong>.</li>
+                            </ul>
+                            <div class="honors">
+                                <span class="honors__label">Recognition</span>
+                                <ul>
+                                    <li><strong>Nomura STAR and Nomura SPOT awards</strong>, 2023 – 2026</li>
+                                </ul>
+                            </div>
+                            <ul class="tags">
+                                <li>Solace</li>
+                                <li>Apache Pulsar</li>
+                                <li>TIBCO EMS / RV</li>
+                                <li>RAG</li>
+                                <li>LLM APIs</li>
+                                <li>MCP</li>
+                                <li>LangChain</li>
+                                <li>LangGraph</li>
+                                <li>CyberArk Conjur</li>
+                                <li>Ansible</li>
+                                <li>Java</li>
+                                <li>Python</li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <!-- Oracle -->
+                    <li class="role reveal">
+                        <div class="role__meta">
+                            <span class="role__date">May 2022 — Aug 2022</span>
+                            <span>Buffalo, USA (Remote)</span>
+                        </div>
+                        <div>
+                            <h3 class="role__company">Oracle</h3>
+                            <p class="role__title">Software Developer Intern</p>
+                            <p class="role__team">MySQL HeatWave Team</p>
+                            <ul class="role__points">
+                                <li>Designed and developed an <strong>asynchronous metrics-ingestion framework</strong> using AWS SQS and Lambda, decoupling periodic MySQL HeatWave metric persistence from synchronous processing and <strong>improving metric-processing throughput by ~20%</strong>.</li>
+                                <li>Implemented automated error handling, logging, retries and SQS Dead Letter Queue-based reprocessing for reliable AWS-to-OCI usage and billing data transfer.</li>
+                                <li>Wrote AWS CDK automation that creates the SQS and Lambda resources and their IAM roles during the CI/CD process.</li>
+                                <li>Improved unit test coverage of the AWS Lambda functions from <strong>72% to 94%</strong> with pytest.</li>
+                            </ul>
+                            <ul class="tags">
+                                <li>AWS SQS</li>
+                                <li>AWS Lambda</li>
+                                <li>AWS CDK</li>
+                                <li>IAM</li>
+                                <li>Oracle Cloud (OCI)</li>
+                                <li>Python</li>
+                                <li>pytest</li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <!-- JPMC — Software Engineer 2 -->
+                    <li class="role reveal">
+                        <div class="role__meta">
+                            <span class="role__date">Jul 2019 — Jul 2021</span>
+                            <span>Hyderabad, India</span>
+                        </div>
+                        <div>
+                            <h3 class="role__company">JP Morgan Chase &amp; Co.</h3>
+                            <p class="role__title">Software Engineer 2</p>
+                            <p class="role__team">Software Engineering Program · Corporate Technology (Client Reference Data)</p>
+                            <ul class="role__points">
+                                <li>Built the <strong>Kafka-based microservice integration framework</strong> for InstaMed client onboarding across <strong>7 systems</strong> and <strong>3 lines of business</strong>, enabling asynchronous straight-through processing with Resilience4j patterns, automated reprocessing of failed requests, and integrated log monitoring for auto-recovery.</li>
+                                <li>Owned most of the critical components while requirements kept changing up to go-live week, and delivered the CEO-visible project on time, earning direct appreciation from <strong>JPMC's global CIO</strong>.</li>
+                                <li>Developed core functionality and RESTful APIs for a key Client KYC and onboarding application used across JPMC with Java Spring Boot, Hibernate and Swagger, and built Angular UI components in parallel.</li>
+                                <li>Developed a Kafka-based microservice for asynchronous, real-time updates of client coverage data, <strong>reducing data access time for end users by 80%</strong>.</li>
+                                <li>Engineered an Elasticsearch data-caching solution for the Strategic LDM project that returns results <strong>50% faster</strong> for generic, targeted and fuzzy searches. Multiple applications across the Corporate Technology tower use it.</li>
+                                <li>Helped design and implement OAuth2 authentication on Microsoft ADFS, and played a key role in migrating 100% of users and applications to Pivotal Cloud Foundry with automated tooling.</li>
+                                <li>Volunteered to build a ReactJS and Spring Boot application for the NGO <strong>Dr. Reddy Foundation</strong> (DRF), used to connect and maintain a network of <strong>5,000+ DRF alumni</strong> across India.</li>
+                            </ul>
+                            <div class="honors">
+                                <span class="honors__label">Awards &amp; recognition</span>
+                                <ul>
+                                    <li><strong>JPMC Execution Excellence Award, Q1 2021</strong>: for InstaMed project planning and development. <a href="./Files/q1.jpeg" target="_blank" rel="noopener" class="link-arrow">View testimonial <svg class="icon"><use href="#i-arrow"/></svg></a></li>
+                                    <li><strong>JPMC Execution Excellence Award, Q2 2021</strong>: for InstaMed project delivery and client support. <a href="./Files/q2.jpeg" target="_blank" rel="noopener" class="link-arrow">View testimonial <svg class="icon"><use href="#i-arrow"/></svg></a></li>
+                                </ul>
+                            </div>
+                            <ul class="tags">
+                                <li>Java Spring Boot</li>
+                                <li>Kafka</li>
+                                <li>Resilience4j</li>
+                                <li>Hibernate</li>
+                                <li>Swagger</li>
+                                <li>Angular</li>
+                                <li>React</li>
+                                <li>Microsoft ADFS</li>
+                                <li>Elasticsearch</li>
+                                <li>Logstash</li>
+                                <li>Kibana</li>
+                                <li>Pivotal Cloud Foundry</li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <!-- JPMC — Intern -->
+                    <li class="role reveal">
+                        <div class="role__meta">
+                            <span class="role__date">Feb 2019 — Jul 2019</span>
+                            <span>Hyderabad, India</span>
+                        </div>
+                        <div>
+                            <h3 class="role__company">JP Morgan Chase &amp; Co.</h3>
+                            <p class="role__title">Software Development Intern</p>
+                            <p class="role__summary">Interned with the Document Management team under the Consumer and Community Banking line of business.</p>
+                            <ul class="role__points">
+                                <li>Worked on the application refresh of a legacy application used for Mortgage lending into micro-services using Java Spring Boot and Angular Framework for the UI.</li>
+                                <li>Planned and executed cloud migration and maintenance of two applications on Pivotal Cloud Foundry.</li>
+                                <li>Built the CI/CD pipeline for automated deployment of application to Cloud environment.</li>
+                                <li>Improved the unit test coverage for legacy application from 11% to 82%.</li>
+                                <li>Followed 100% Agile practices, performed unit testing and worked on several DevOps tools like Jira, Bitbucket, Jenkins 2.0, Black Duck, Sonar, ServiceNow etc., for CI/CD.</li>
+                            </ul>
+                            <div class="honors">
+                                <span class="honors__label">Awards &amp; recognition</span>
+                                <ul>
+                                    <li><strong>Spot Light award, March 2019</strong>: for the development of Credit Amendment and Response Tracking Micro-service using Angular and Java Spring Boot (Legacy application refresh)</li>
+                                    <li><strong>Spot Light award, June 2019</strong>: for Cloud Migration and Development of CI/CD pipeline for automated deployment of micro-services to cloud</li>
+                                </ul>
+                            </div>
+                            <ul class="tags">
+                                <li>Java Spring Boot</li>
+                                <li>Angular</li>
+                                <li>Pivotal Cloud Foundry</li>
+                                <li>Jenkins</li>
+                                <li>ServiceNow Change Management</li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <!-- Careator -->
+                    <li class="role reveal">
+                        <div class="role__meta">
+                            <span class="role__date">May 2018 — Jun 2018</span>
+                            <span>Hyderabad, India</span>
+                        </div>
+                        <div>
+                            <h3 class="role__company">Careator Technologies Pvt. Ltd.</h3>
+                            <p class="role__title">Android Application Development Intern</p>
+                            <p class="role__summary">Interned with the Android Application Development team to work on a job search application called Milo-Now.</p>
+                            <ul class="role__points">
+                                <li>Automated the customer login and information onboarding using the open data fetched from Google, LinkedIn and Facebook for a job search application called Milo-Now.</li>
+                                <li>Involved in the planning, testing, issue resolution and deployment of the android application to Play store.</li>
+                            </ul>
+                            <ul class="tags">
+                                <li>Java</li>
+                                <li>Android Studio</li>
+                            </ul>
+                        </div>
+                    </li>
+
+                </ol>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="section section--alt" id="projects">
+            <div class="container">
+                <div class="section__head reveal">
+                    <span class="eyebrow">Projects &amp; Research</span>
+                    <h2 class="section__title">Selected work</h2>
+                    <p class="section__lede">Research, published papers and personal projects across NLP, machine learning and information retrieval.</p>
+                </div>
+
+                <article class="feature reveal">
+                    <div>
+                        <span class="eyebrow">Featured research · 2022</span>
+                        <h3>Chatbot to Combat Disinformation &amp; Scams</h3>
+                        <p class="feature__org">National Science Foundation · Research Assistant</p>
+                    </div>
+                    <div>
+                        <p>
+                            Developed an <strong>NSF-funded chatbot</strong> for a government senior-citizen training program. It posed as
+                            legitimate government officials in real-time conversations to test how well participants resisted
+                            PII and financial-information scams.
+                        </p>
+                        <p>
+                            Deployed across WhatsApp, Telegram and Facebook Messenger, and any failed assessment
+                            triggered mandatory retraining.
+                        </p>
+                        <div class="feature__figures">
+                            <div><span>80+</span><small>participants evaluated</small></div>
+                            <div><span>200+</span><small>simulated scam interactions</small></div>
+                        </div>
+                        <ul class="tags">
+                            <li>Conversational AI</li>
+                            <li>NLP</li>
+                            <li>WhatsApp</li>
+                            <li>Telegram</li>
+                            <li>Messenger</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <div class="projects">
+
+                    <article class="card reveal">
+                        <div class="card__media"><img src="images/search_engine.png" alt="Mini search engine" loading="lazy"></div>
+                        <div class="card__body">
+                            <h3>Mini Search Engine</h3>
+                            <ul class="card__points">
+                                <li>Implemented a mini search engine, that performs Document Tokenization, Lemmatization and Inverted Index Construction.</li>
+                                <li>On passing of a query, the query is processed and the appropriate documents are fetched by merging the posting list of query terms.</li>
+                                <li>Document at a time merge was utilized for this project.</li>
+                            </ul>
+                            <ul class="tags">
+                                <li>Python</li>
+                                <li>Information Retrieval</li>
+                                <li>Data Structures and Algorithms</li>
+                            </ul>
+                            <div class="card__links">
+                                <a target="_blank" rel="noopener" href="https://github.com/lbodapat/Search_Engine_Indexing_Query_Retrieval" class="link-arrow">View code <svg class="icon"><use href="#i-arrow"/></svg></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card reveal">
+                        <div class="card__media"><img src="images/rl.png" alt="Reinforcement learning grid world" loading="lazy"></div>
+                        <div class="card__body">
+                            <h3>Reinforcement Learning: Custom Grid World Environment</h3>
+                            <ul class="card__points">
+                                <li>Implemented a custom grid world environment where the agent learnt to take the optimal actions to reach the goal state while maximizing the rewards during an episode.</li>
+                                <li>Used Q-Learning and SARSA Algorithms to train the agent, the results of the two reinforcement learning algorithms were compared.</li>
+                            </ul>
+                            <ul class="tags">
+                                <li>Python</li>
+                                <li>Reinforcement Learning</li>
+                            </ul>
+                            <div class="card__links">
+                                <a target="_blank" rel="noopener" href="https://github.com/lbodapat/Reinforcement_learning" class="link-arrow">View code <svg class="icon"><use href="#i-arrow"/></svg></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card reveal">
+                        <div class="card__media"><img src="images/twitter.png" alt="Twitter logo" loading="lazy"></div>
+                        <div class="card__body">
+                            <h3>Twitter Data Analysis using Solr</h3>
+                            <ul class="card__points">
+                                <li>Scraped twitter data to obtain 50,000 COVID-19 related tweets, containing tweets of three language English, Hindi and Spanish and tweets from India, USA and Mexico.</li>
+                                <li>Re-tweets were filtered and Replies to Person of Interest were scraped.</li>
+                                <li>The Data collected from twitter was Indexed to Solr for Data analysis.</li>
+                            </ul>
+                            <ul class="tags">
+                                <li>Python</li>
+                                <li>Solr</li>
+                                <li>Twitter Data scraping</li>
+                            </ul>
+                            <div class="card__links">
+                                <a target="_blank" rel="noopener" href="https://github.com/lbodapat/Twitter_data_analysis_using_Solr" class="link-arrow">View code <svg class="icon"><use href="#i-arrow"/></svg></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card reveal">
+                        <div class="card__media"><img src="images/sentiment_analysis_machine_learning-thumbnail2.png" alt="Sentiment analysis" loading="lazy"></div>
+                        <div class="card__body">
+                            <span class="card__badge">Published · Springer</span>
+                            <h3>Sentiment Classification of Social Media Reviews with RNN-LSTM and CNN</h3>
+                            <ul class="card__points">
+                                <li>Performed sentiment analysis on IMDB gold standard dataset by pre-processing data using Natural Language processing.</li>
+                                <li>Applied deep learning models such as RNN-LSTM and CNN to predict the sentiment with an accuracy of 86.8% using CNN Model and 84.16% using RNN-LSTM.</li>
+                                <li>The results of the project were published in Springer International Journal.</li>
+                            </ul>
+                            <ul class="tags">
+                                <li>Python</li>
+                                <li>Deep Learning</li>
+                                <li>Sentiment Analysis</li>
+                            </ul>
+                            <div class="card__links">
+                                <a target="_blank" rel="noopener" href="https://github.com/lbodapat/Sentiment-Analysis-of-Movie-Reviews-using-RNN-LSTM-and-CNN-master" class="link-arrow">View code <svg class="icon"><use href="#i-arrow"/></svg></a>
+                                <a target="_blank" rel="noopener" href="https://link.springer.com/chapter/10.1007/978-981-33-6919-1_4" class="link-arrow">View publication <svg class="icon"><use href="#i-arrow"/></svg></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card reveal">
+                        <div class="card__media"><img src="images/bc.png" alt="Breast cancer classification" loading="lazy"></div>
+                        <div class="card__body">
+                            <span class="card__badge">Published</span>
+                            <h3>Classification of Breast Cancer into Benign and Malignant using Support Vector Machines</h3>
+                            <ul class="card__points">
+                                <li>Built a machine learning model to classify breast cancer into benign and malignant stages using SVM with 95% accuracy using NLP for data pre-processing and PCA for feature extraction.</li>
+                                <li>Achieved an accuracy of 95% post Principal Component Analysis and Optimization.</li>
+                                <li>The Breast Cancer datasets available in Wisconsin (Diagnostic) were used in this project.</li>
+                            </ul>
+                            <ul class="tags">
+                                <li>Python</li>
+                                <li>Machine Learning</li>
+                            </ul>
+                            <div class="card__links">
+                                <a target="_blank" rel="noopener" href="https://github.com/lbodapat/Breast-Cancer-stage-prediction-using-SVM" class="link-arrow">View code <svg class="icon"><use href="#i-arrow"/></svg></a>
+                                <a target="_blank" rel="noopener" href="./Files/paper.pdf" class="link-arrow">View publication <svg class="icon"><use href="#i-arrow"/></svg></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card reveal">
+                        <div class="card__media"><img src="images/tsf.png" alt="COVID-19 time series forecast" loading="lazy"></div>
+                        <div class="card__body">
+                            <span class="card__badge">Published · IEEE Xplore</span>
+                            <h3>COVID-19 Time Series Analysis of Daily Cases, Deaths and Recoveries using LSTM</h3>
+                            <ul class="card__points">
+                                <li>Built a time-series forecasting model for univariate data to predict various trends in COVID-19 cases.</li>
+                                <li>Attained 80% accuracy for prediction of daily COVID cases, deaths, and recovery cases.</li>
+                                <li>The results have been published in IEEE Xplore journal.</li>
+                            </ul>
+                            <ul class="tags">
+                                <li>Python</li>
+                                <li>Time Series Analysis</li>
+                            </ul>
+                            <div class="card__links">
+                                <a target="_blank" rel="noopener" href="https://ieeexplore.ieee.org/document/9250863" class="link-arrow">View publication <svg class="icon"><use href="#i-arrow"/></svg></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card reveal">
+                        <div class="card__media"><img src="images/Handwriting-Generation.jpeg" alt="Handwriting generation" loading="lazy"></div>
+                        <div class="card__body">
+                            <span class="card__badge">Published · Springer</span>
+                            <h3>Realistic Handwriting Generation using RNN-LSTM</h3>
+                            <ul class="card__points">
+                                <li>Developed a model to generate human-like handwriting by training the model on thousands of handwriting images using deep learning models and by performing hyper-parameter tuning.</li>
+                                <li>IAM Handwriting Database images were used to train the model in this project.</li>
+                                <li>The outputs of the model have been published in an International journal indexed by Springer.</li>
+                            </ul>
+                            <ul class="tags">
+                                <li>Python</li>
+                                <li>Deep Learning</li>
+                            </ul>
+                            <div class="card__links">
+                                <a target="_blank" rel="noopener" href="https://link.springer.com/chapter/10.1007/978-981-15-1480-7_55" class="link-arrow">View publication <svg class="icon"><use href="#i-arrow"/></svg></a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section class="section" id="education">
+            <div class="container">
+                <div class="section__head reveal">
+                    <span class="eyebrow">Education</span>
+                    <h2 class="section__title">Academic foundation</h2>
+                </div>
+                <div class="schools">
+                    <article class="school reveal">
+                        <div class="school__head">
+                            <img class="school__logo" src="images/university-at-buffalo.svg" alt="University at Buffalo logo" width="64" height="64">
+                            <div>
+                                <h3>University at Buffalo, SUNY</h3>
+                                <span class="school__date">Aug 2021 — Dec 2022 · New York</span>
+                            </div>
+                        </div>
+                        <p class="school__degree">M.S. in Computer Science <span class="school__gpa">GPA 3.76 / 4.0</span></p>
+                        <span class="school__label">Coursework</span>
+                        <ul class="tags">
+                            <li>Information Retrieval</li>
+                            <li>Reinforcement Learning</li>
+                            <li>Introduction to Machine Learning</li>
+                            <li>Algorithms for Modern Computing Systems</li>
+                        </ul>
+                    </article>
+                    <article class="school reveal">
+                        <div class="school__head">
+                            <img class="school__logo" src="images/cbit.jpeg" alt="CBIT logo" width="64" height="64">
+                            <div>
+                                <h3>Chaitanya Bharathi Institute of Technology</h3>
+                                <span class="school__date">2015 — 2019 · Hyderabad, India</span>
+                            </div>
+                        </div>
+                        <p class="school__degree">Bachelor of Engineering in Information Technology</p>
+                        <span class="school__label">Coursework</span>
+                        <ul class="tags">
+                            <li>Software Engineering</li>
+                            <li>Database Management Systems</li>
+                            <li>Web Programming &amp; Services</li>
+                            <li>Operating Systems</li>
+                            <li>Object Oriented Programming using Java</li>
+                            <li>Software Testing</li>
+                            <li>Data Structures using C++</li>
+                            <li>Computer Networks</li>
+                            <li>Information Security</li>
+                            <li>Artificial Intelligence</li>
+                            <li>Big Data Analytics</li>
+                            <li>Data Mining</li>
+                            <li>Cloud Computing</li>
+                            <li>Distributed Systems</li>
+                            <li>Programming in C &amp; C++</li>
+                            <li>Design &amp; Analysis of Algorithms</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recognition -->
+        <section class="section section--alt" id="recognition">
+            <div class="container">
+                <div class="section__head reveal">
+                    <span class="eyebrow">Awards &amp; Honors</span>
+                    <h2 class="section__title">Recognition</h2>
+                </div>
+                <ul class="awards">
+                    <li class="award reveal">
+                        <span class="award__icon"><svg class="icon"><use href="#i-star"/></svg></span>
+                        <span class="award__year">Nomura · 2023 – 2026</span>
+                        <h3>Nomura STAR &amp; SPOT Awards</h3>
+                    </li>
+                    <li class="award reveal">
+                        <span class="award__icon"><svg class="icon"><use href="#i-award"/></svg></span>
+                        <span class="award__year">JPMC · 2021</span>
+                        <h3>Execution Excellence Award, Q1 &amp; Q2 2021</h3>
+                        <p>Firm-level award in consecutive quarters. I was the first Software Engineering Program member, in a cohort of 400+ across 3 locations, to win it twice.</p>
+                        <div class="award__links">
+                            <a href="./Files/q1.jpeg" target="_blank" rel="noopener" class="link-arrow">Q1 testimonial <svg class="icon"><use href="#i-arrow"/></svg></a>
+                            <a href="./Files/q2.jpeg" target="_blank" rel="noopener" class="link-arrow">Q2 testimonial <svg class="icon"><use href="#i-arrow"/></svg></a>
+                        </div>
+                    </li>
+                    <li class="award reveal">
+                        <span class="award__icon"><svg class="icon"><use href="#i-book"/></svg></span>
+                        <span class="award__year">Publications</span>
+                        <h3>Lead author of three research papers</h3>
+                        <p>Published in international journals indexed by IEEE and Springer.</p>
+                        <div class="award__links">
+                            <a href="https://ieeexplore.ieee.org/document/9250863" target="_blank" rel="noopener" class="link-arrow">IEEE <svg class="icon"><use href="#i-arrow"/></svg></a>
+                            <a href="https://link.springer.com/chapter/10.1007/978-981-33-6919-1_4" target="_blank" rel="noopener" class="link-arrow">Springer <svg class="icon"><use href="#i-arrow"/></svg></a>
+                            <a href="https://link.springer.com/chapter/10.1007/978-981-15-1480-7_55" target="_blank" rel="noopener" class="link-arrow">Springer <svg class="icon"><use href="#i-arrow"/></svg></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="section" id="skills">
+            <div class="container">
+                <div class="section__head reveal">
+                    <span class="eyebrow">Skills</span>
+                    <h2 class="section__title">Technical toolkit</h2>
+                </div>
+                <div class="skills reveal">
+                    <div class="skill-row">
+                        <h3>Languages &amp; Frontend</h3>
+                        <ul class="tags">
+                            <li>Java</li><li>Python</li><li>TypeScript</li><li>JavaScript</li><li>C++</li><li>SQL</li><li>Shell Script</li><li>HTML</li><li>CSS</li><li>Angular</li><li>React</li>
+                        </ul>
+                    </div>
+                    <div class="skill-row">
+                        <h3>Backend &amp; Messaging</h3>
+                        <ul class="tags">
+                            <li>Spring Boot</li><li>REST APIs</li><li>gRPC</li><li>Swagger</li><li>Kafka</li><li>Solace</li><li>Apache Pulsar</li><li>TIBCO EMS / Rendezvous</li><li>Node.js</li><li>Flask</li>
+                        </ul>
+                    </div>
+                    <div class="skill-row">
+                        <h3>AI / LLM</h3>
+                        <ul class="tags">
+                            <li>LLM APIs</li><li>RAG</li><li>LangChain</li><li>LangGraph</li><li>Amazon Bedrock</li><li>Model Context Protocol (MCP)</li><li>Agent Harness</li><li>NLTK</li><li>TensorFlow</li><li>Keras</li><li>PyTorch</li><li>AWS Certified AI Practitioner</li>
+                        </ul>
+                    </div>
+                    <div class="skill-row">
+                        <h3>Cloud, DevOps &amp; Testing</h3>
+                        <ul class="tags">
+                            <li>AWS (SQS, Lambda, CDK, IAM)</li><li>Pivotal Cloud Foundry</li><li>Docker</li><li>Jenkins</li><li>Ansible</li><li>CI/CD</li><li>Git</li><li>Jira</li><li>JUnit 5</li><li>TestNG</li><li>pytest</li>
+                        </ul>
+                    </div>
+                    <div class="skill-row">
+                        <h3>Security &amp; Observability</h3>
+                        <ul class="tags">
+                            <li>CyberArk Conjur</li><li>Sonar</li><li>Splunk</li><li>Grafana</li><li>RiverMuse</li><li>Elasticsearch</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section contact" id="contact">
+            <div class="container reveal">
+                <span class="eyebrow">Contact</span>
+                <h2>Let's build something together.</h2>
+                <p class="contact__lede">I'm always glad to talk about distributed systems, applied AI, or a role where I can help.</p>
+                <a class="contact__email" href="mailto:surajbodapati97@gmail.com">surajbodapati97@gmail.com</a>
+                <div class="contact__meta">
+                    <span><svg class="icon"><use href="#i-pin"/></svg>New York City, NY</span>
+                    <a href="https://www.linkedin.com/in/suraj-bls/" target="_blank" rel="noopener"><svg class="icon icon--fill"><use href="#i-linkedin"/></svg>linkedin.com/in/suraj-bls</a>
+                    <a href="https://github.com/lbodapat" target="_blank" rel="noopener"><svg class="icon icon--fill"><use href="#i-github"/></svg>github.com/lbodapat</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <span>&copy; <span id="year">2026</span> Suraj Bodapati</span>
+            <a href="#top">Back to top <svg class="icon" style="transform: rotate(-45deg)"><use href="#i-arrow"/></svg></a>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
